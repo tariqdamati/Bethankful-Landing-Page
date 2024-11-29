@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bethankful</title>
+    <title>Be Thankful</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background: linear-gradient(to bottom, #FFA726, #EF5350);
+            color: white;
         }
         header {
-            background-color: linear-gradient(to bottom, #FFA726, #EF5350);
-            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
             padding: 20px;
             text-align: center;
         }
@@ -38,24 +37,26 @@
         }
         .cta-buttons a {
             text-decoration: none;
-            color: white;
+            color: #EF5350;
+            background-color: #FFFFFF;
             padding: 15px 30px;
             margin: 10px;
             border-radius: 5px;
             display: inline-block;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
         }
-        .cta-buttons .download-btn {
-            background-color: #0078d7;
-        }
-        .cta-buttons .learn-more-btn {
-            background-color: #555;
+        .cta-buttons a:hover {
+            background-color: #EF5350;
+            color: #FFFFFF;
         }
         .features {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.2);
             padding: 40px 20px;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            color: white;
         }
         .features .feature {
             width: 30%;
@@ -64,10 +65,9 @@
         }
         .features .feature h3 {
             margin-top: 15px;
-            color: #0078d7;
         }
         footer {
-            background-color: #333;
+            background-color: rgba(0, 0, 0, 0.5);
             color: white;
             text-align: center;
             padding: 20px 10px;
@@ -80,7 +80,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Bethankful</h1>
+        <h1>Welcome to Be Thankful</h1>
         <p>Effortless delivery for your home and mosque needs</p>
     </header>
 
@@ -88,8 +88,8 @@
         <h2>Delivering Convenience at Your Fingertips</h2>
         <p>Order products or water for mosques with ease. Subscribe to recurring deliveries or track your orders in real time.</p>
         <div class="cta-buttons">
-            <a href="#features" class="download-btn">Download the App</a>
-            <a href="#features" class="learn-more-btn">Learn More</a>
+            <a href="#features">Download the App</a>
+            <a href="#features">Learn More</a>
         </div>
     </div>
 
@@ -112,7 +112,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Bethankfull LLC. All rights reserved.</p>
+        <p>&copy; 2024 Be Thankful LLC. All rights reserved.</p>
     </footer>
 </body>
 </html>
