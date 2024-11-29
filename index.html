@@ -25,6 +25,9 @@
         .logo {
             width: 300px; /* Doubled size from 150px to 300px */
             margin-bottom: 20px;
+            pointer-events: none; /* Prevent right-click on image */
+            -webkit-user-drag: none; /* Disable drag on Webkit browsers */
+            user-drag: none; /* Disable drag on other browsers */
         }
         h1 {
             font-size: 3em;
@@ -35,6 +38,10 @@
             color: transparent;
         }
     </style>
+    <script>
+        // Disable right-click on the entire page
+        document.addEventListener('contextmenu', (event) => event.preventDefault());
+    </script>
 </head>
 <body>
     <div class="container">
